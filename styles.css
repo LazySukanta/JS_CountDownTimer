@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: "Poppins",sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/21/14/46/norway-1758183_1280.jpg ");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.countdown-container{
+  display: flex;
+  /* border: 1px solid red; */
+  /* box-shadow: 5px 10px #888888; */
+}
+h1{
+  font-weight: normal;
+  font-size:4rem;
+  margin-top:-15rem;
+}
+.text{
+  font-weight: bold;
+  font-size: 6rem;
+  line-height:1;
+  margin: 0 2rem;
+}
+.count-ele{
+  text-align: center;
+}
+.count-ele span{
+  font-size: 1.4rem;
+}
